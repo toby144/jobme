@@ -15,8 +15,6 @@ cloudinary.config({
   api_key: process.env.CLOUD_API_KEY,
   api_secret: process.env.CLOUD_API_SECRET,
 });
-
-app.use(fileUpload({ useTempFiles: true }));
 app.use(express.json());
 app.use(cors());
 

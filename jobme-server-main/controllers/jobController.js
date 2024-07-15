@@ -153,6 +153,7 @@ const updateJobStatus = async (req, res) => {
 };
 
 module.exports = {
+  getUniqueLocations,
   getAllJobs,
   getLatestJobs,
   getSingleJob,
@@ -161,3 +162,5 @@ module.exports = {
   getUsersAppliedJobs,
   updateJobStatus,
 };
+
+

@@ -49,6 +49,7 @@ const userSchema = new Schema(
       validate: [isEmail, "Please provide a valid email"],
       unique: true,
       trim: true,
+      lowercase: true,
     },
     password: {
       type: String,
